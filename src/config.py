@@ -31,6 +31,3 @@ class Config:
         self.config[section][key] = value
         with open(self.file, 'w') as configfile:
             self.config.write(configfile)
-
-
-Config().create_config()
