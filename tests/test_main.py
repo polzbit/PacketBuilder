@@ -1,7 +1,7 @@
 import unittest
 import sys
 sys.path.append('./src')
-from src.__init__ import main
+from main import main
 
 class TestMain(unittest.TestCase):
     def test_main(self):
